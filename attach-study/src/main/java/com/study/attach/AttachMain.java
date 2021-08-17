@@ -1,10 +1,10 @@
-package com.study;
+package com.study.attach;
 
 import com.sun.tools.attach.VirtualMachine;
 
 import java.io.IOException;
 
-public class Attach {
+public class AttachMain {
     public static void main(String[] args) {
         VirtualMachine vm = null;
         try {
